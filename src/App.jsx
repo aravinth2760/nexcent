@@ -6,6 +6,7 @@ import Info1 from "./components/Info1";
 import Stats from "./components/Stats";
 import Info2 from "./components/Info2";
 import Testimonial from "./components/Testimonial";
+import Blog from "./components/Blog";
 
 const App = () => {
   return (
@@ -33,6 +34,9 @@ const App = () => {
 
       {/* Testimonial Section */}
       <Testimonial />
+
+      {/* Blog Section */}
+      <Blog />
     </div>
   );
 };
