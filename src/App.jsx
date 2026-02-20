@@ -5,6 +5,7 @@ import Community from "./components/Community";
 import Info1 from "./components/Info1";
 import Stats from "./components/Stats";
 import Info2 from "./components/Info2";
+import Testimonial from "./components/Testimonial";
 
 const App = () => {
   return (
@@ -29,6 +30,9 @@ const App = () => {
 
       {/* Info Section 2 */}
       <Info2 />
+
+      {/* Testimonial Section */}
+      <Testimonial />
     </div>
   );
 };
