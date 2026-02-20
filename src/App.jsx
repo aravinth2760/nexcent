@@ -4,6 +4,7 @@ import Clients from "./components/clients";
 import Community from "./components/Community";
 import Info1 from "./components/Info1";
 import Stats from "./components/Stats";
+import Info2 from "./components/Info2";
 
 const App = () => {
   return (
@@ -25,6 +26,9 @@ const App = () => {
 
       {/* Stats Section */}
       <Stats />
+
+      {/* Info Section 2 */}
+      <Info2 />
     </div>
   );
 };
