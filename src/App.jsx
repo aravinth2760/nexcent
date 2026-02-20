@@ -1,9 +1,12 @@
-function App() {
+import Navbar from "./components/navbar";
+
+const App = () => {
   return (
-    <>
-      <h1>Nextcent App</h1>
-    </>
+    <div className="min-h-screen bg-white font-sans text-slate-700">
+      {/* Navigation */}
+      <Navbar />
+    </div>
   );
-}
+};
 
 export default App;
