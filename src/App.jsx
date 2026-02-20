@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Clients from "./components/clients";
+import Community from "./components/Community";
 
 const App = () => {
   return (
@@ -13,6 +14,9 @@ const App = () => {
 
       {/* Clients Section */}
       <Clients />
+
+      {/* Community Section */}
+      <Community />
     </div>
   );
 };
