@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
+import Clients from "./components/clients";
 
 const App = () => {
   return (
@@ -9,6 +10,9 @@ const App = () => {
 
       {/* Hero Section */}
       <Hero />
+
+      {/* Clients Section */}
+      <Clients />
     </div>
   );
 };
