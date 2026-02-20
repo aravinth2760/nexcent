@@ -3,6 +3,7 @@ import Hero from "./components/hero";
 import Clients from "./components/clients";
 import Community from "./components/Community";
 import Info1 from "./components/Info1";
+import Stats from "./components/Stats";
 
 const App = () => {
   return (
@@ -21,6 +22,9 @@ const App = () => {
 
       {/* Info Section 1 */}
       <Info1 />
+
+      {/* Stats Section */}
+      <Stats />
     </div>
   );
 };
