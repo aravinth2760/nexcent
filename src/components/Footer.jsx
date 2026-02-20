@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="space-y-8">
           <div className="flex items-center gap-2">
-            <div className="bg-[#4CAF4F] p-1.5 rounded">
+            <div className="p-1.5 rounded">
               <img src={Logo} className="w-5 h-5" />
             </div>
             <span className="text-2xl font-bold">Nexcent</span>
