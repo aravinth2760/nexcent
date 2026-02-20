@@ -7,6 +7,7 @@ import Stats from "./components/Stats";
 import Info2 from "./components/Info2";
 import Testimonial from "./components/Testimonial";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -37,6 +38,9 @@ const App = () => {
 
       {/* Blog Section */}
       <Blog />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
