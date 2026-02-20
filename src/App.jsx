@@ -2,6 +2,7 @@ import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Clients from "./components/clients";
 import Community from "./components/Community";
+import Info1 from "./components/Info1";
 
 const App = () => {
   return (
@@ -17,6 +18,9 @@ const App = () => {
 
       {/* Community Section */}
       <Community />
+
+      {/* Info Section 1 */}
+      <Info1 />
     </div>
   );
 };
